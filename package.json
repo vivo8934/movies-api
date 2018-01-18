@@ -1,9 +1,9 @@
 {
-  "name": "shoes_api",
+  "name": "movie_api",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines":{
+  "engines": {
     "node": ">=7.6.0"
   },
   "scripts": {
@@ -26,4 +26,3 @@
     "request": "^2.83.0"
   }
 }
-``

@@ -1,6 +1,6 @@
 'use strict';
 const express = require('express');
-const MoviesRoutes = require("./playlist");
+const MoviesRoutes = require("./movieList");
 const Models = require('./models');
 
 const app = express();
