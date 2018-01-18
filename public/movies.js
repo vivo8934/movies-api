@@ -36,3 +36,13 @@ search.addEventListener('keyup',  function(evt){
 
 })
 })
+
+var watchLater = document.querySelector('.movie');
+
+watchLater.addEventListener('click', function(){
+  alert('vivo');
+})
+
+// $(".movie").on('click', function(e) {
+//   alert('click')
+// })

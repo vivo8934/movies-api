@@ -10,50 +10,63 @@
   <link rel="shortcut icon" href="">
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="css/shop-homepage.css" rel="stylesheet">
-  <!-- <link href="plumber.css" rel="stylesheet"> -->
-
+  </head>
   <script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.js"></script>
 
-<input type="text" name="search" placeholder= "search for a movies" class = "mySearch">
-<br>
-<br>
-
-   <script class="divsTemp" type="text/handlebars-x">
-   <div class="row">
-    {{#each moviesDetails}}
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card h-100" style="border: #000000 1px outset;">
-
-        <div><img class="card-img-top" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2{{poster_path}}" width="360x360" height="360x360" style="border: #DCDCDC 1px outset;" alt="Movies"></img>
-        </div>
-
-        <div class="card-body" style="border: #000000 0.2px outset;">
-
-          <div class="row" style="border: #DCDCDC 0.5px outset;">
-            <div class="col-sm-6"><Strong>Title</Strong></div><div class="col-sm-6" align="right">{{title}}</div></div>
-
-            <div class="row" style="border: #DCDCDC 0.5px outset;">
-                  <div class="col-sm-6"><Strong>Media type</Strong></div><div class="col-sm-6" align="right">{{media_type}}</div></div>
-
-                  <div class="row" style="border: #DCDCDC 0.5px outset;">
-                    <div class="col-sm-6"><Strong>Vote</Strong></div><div class="col-sm-6" align="right">{{vote_count}}</div></div>
-                  <div class="row" style="border: #DCDCDC 0.5px outset;">
-                    <div class="col-sm-6"><Strong>Release Date</Strong></div><div class="col-sm-6" align="right">{{release_date}}</div></div>
-            </div>
-      </div>
-    </div>
-
-    {{/each}}
-  </div>
-
-   </script>
 </head>
 
 <body>
-<div class="moviesDetails">
+
+  <input type="text" name="search" placeholder= "search for a movies" class = "mySearch">
+  <br>
+  <br>
+
+  <div class="movie">
+
+    <script class="divsTemp" type="text/handlebars-x">
+    <div class="row">
+    {{#each moviesDetails}}
+    <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100" style="border: #000000 1px outset;">
+
+    <div><img class="card-img-top" src="https://image.tmdb.org/t/p/w185_and_h278_bestv2{{poster_path}}" width="200x200" height="200x200" style="border: #DCDCDC 1px outset;" alt="Movies"></img>
+    </div>
+
+    <div class="card-body" style="border: #000000 0.2px outset;">
+
+    <div class="row" style="border: #DCDCDC 0.5px outset;">
+    <div class="col-sm-6"><Strong>Title</Strong></div><div class="col-sm-6" align="right">{{title}}</div></div>
+
+    <div class="row" style="border: #DCDCDC 0.5px outset;">
+    <div class="col-sm-6"><Strong>Media type</Strong></div><div class="col-sm-6" align="right">{{media_type}}</div></div>
+
+    <div class="row" style="border: #DCDCDC 0.5px outset;">
+    <div class="col-sm-6"><Strong>Vote</Strong></div><div class="col-sm-6" align="right">{{vote_count}}</div></div>
+    <div class="row" style="border: #DCDCDC 0.5px outset;">
+    <div class="col-sm-6"><Strong>Release Date</Strong></div><div class="col-sm-6" align="right">{{release_date}}</div></div>
+    </div>
+    <button type="button" class="btn">Watch Later</button>
+    </div>
+    </div>
+
+    {{/each}}
+    </div>
+
+    </script>
+
+    <div class="moviesDetails">
+
+    </div>
+  </div>
+
+<div class="login">
 
 </div>
+
+
+
+
 </body>
 <script src="movies.js" type="text/javascript" charset="utf-8"></script>
 <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
