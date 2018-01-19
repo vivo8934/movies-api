@@ -1,5 +1,6 @@
 var menuDetails = document.querySelector('.login');
 var DivMovies = document.querySelector('.movie');
+var signupDetails = document.querySelector('.signup');
 var moviesDetailsHtml = document.querySelector('.moviesDetails');
   var divsTemp = initTemplate('.divsTemp');
 
@@ -45,8 +46,5 @@ watchLater.addEventListener('click', function(){
 //alert('vivo');
   DivMovies.style.display = 'none';
    menuDetails.style.display = 'block';
+   signupDetails.style.display = 'block';
 })
-
-// $(".movie").on('click', function(e) {
-//   alert('click')
-// })

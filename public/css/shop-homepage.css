@@ -53,9 +53,22 @@ h6{
 }
 .login {
   display: none;
+  width: 50%
 }
 
 
 .element {
   @include invisible;
+}
+
+.signup{
+  margin: -256px -119px;
+  float: right;
+  width: 50%;
+  display: none;
+}
+
+.personalDetails{
+  width: 100%;
+  height: 450px;
 }

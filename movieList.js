@@ -32,6 +32,7 @@ moviesobj
       })
     }
       //////////returning all functions for module exports////////////////
+
   return {
     movies
   }

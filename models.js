@@ -23,3 +23,34 @@ return {
   personalMovies
 };
 }
+
+
+
+/*
+
+{
+  username : string,
+  movie : {
+
+  }
+}
+
+{
+  userName : "Andre",
+  movie : {
+
+  }
+},
+{
+  userName : "Mfundo",
+  movie : {
+
+  }
+},{
+  userName : "Andre",
+  movie : {
+
+  }
+}
+
+*/
