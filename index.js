@@ -29,9 +29,9 @@ app.use(function(req, res, next){
   next();
 });
 
-app.get('/api/movies', moviesRoutes.showAvailMovies);
-app.get('/login', moviesRoutes.loginScreen);
-app.post('signup', moviesRoutes.newUsers);
+app.get('/api/movies', moviesRoutes.movies);
+// app.get('/login', moviesRoutes.loginScreen);
+// app.post('signup', moviesRoutes.newUsers);
 
 //catch 404 and forward to error handler
 app.use(function(req, res, next){

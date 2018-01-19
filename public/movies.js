@@ -1,3 +1,5 @@
+var menuDetails = document.querySelector('.login');
+var DivMovies = document.querySelector('.movie');
 var moviesDetailsHtml = document.querySelector('.moviesDetails');
   var divsTemp = initTemplate('.divsTemp');
 
@@ -40,7 +42,9 @@ search.addEventListener('keyup',  function(evt){
 var watchLater = document.querySelector('.movie');
 
 watchLater.addEventListener('click', function(){
-  alert('vivo');
+//alert('vivo');
+  DivMovies.style.display = 'none';
+   menuDetails.style.display = 'block';
 })
 
 // $(".movie").on('click', function(e) {

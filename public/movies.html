@@ -23,8 +23,7 @@
   <br>
 
   <div class="movie">
-
-    <script class="divsTemp" type="text/handlebars-x">
+  <script class="divsTemp" type="text/handlebars-x">
     <div class="row">
     {{#each moviesDetails}}
     <div class="col-lg-4 col-md-6 mb-4">
@@ -58,14 +57,20 @@
     <div class="moviesDetails">
 
     </div>
-  </div>
-
-<div class="login">
-
 </div>
 
+<div class="login">
+  <h2><u><strong>Login Menu</strong></u></h2>
 
-
+  <label><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <h6>Please Note That your username is you email</h6>
+<br>
+  <label><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+<br>
+      <button type="submit" class="btn-default">Login</button>
+</div>
 
 </body>
 <script src="movies.js" type="text/javascript" charset="utf-8"></script>
